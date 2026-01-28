@@ -52,3 +52,31 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 $route['default_controller'] = 'dashboard';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
+
+$route['ortu'] = 'Ortu_controllers/index';
+$route['ortu/tambah'] = 'Ortu_controllers/tambah_ortu';
+$route['ortu/hapus/(:num)'] = 'Ortu_controllers/hapus_ortu/$1';
+$route['ortu/ubah/(:num)'] = 'Ortu_controllers/ubah_ortu/$1';
+
+$route['anak'] = 'Anak_controllers/index';
+$route['anak/tambah'] = 'Anak_controllers/tambah_anak';
+$route['anak/hapus/(:num)'] = 'Anak_controllers/hapus_anak/$1';
+$route['anak/ubah/(:num)'] = 'Anak_controllers/ubah_anak/$1';
+
+$route['kunjungan'] = 'Kunjungan_controllers/index';
+$route['kunjungan/tambah'] = 'Kunjungan_controllers/tambah_kunjungan';
+$route['kunjungan/hapus/(:num)'] = 'Kunjungan_controllers/hapus_kunjungan/$1';
+$route['kunjungan/ubah/(:num)'] = 'Kunjungan_controllers/ubah_kunjungan/$1';
+
+$route['pengukuran'] = 'Pengukuran_controllers/index';
+$route['pengukuran/tambah'] = 'Pengukuran_controllers/tambah_pengukuran';
+$route['pengukuran/hapus/(:num)'] = 'Pengukuran_controllers/hapus_pengukuran/$1';
+$route['pengukuran/ubah/(:num)'] = 'Pengukuran_controllers/ubah_pengukuran/$1';
+
+$route['laporan']                     = 'laporan';
+$route['laporan/kunjungan']           = 'laporan/kunjungan';
+$route['laporan/pengukuran']          = 'laporan/pengukuran';
+
+$route['laporan/kunjungan/cetak']   = 'laporan/cetak_kunjungan';
+$route['laporan/pengukuran/cetak']  = 'laporan/cetak_pengukuran';
+

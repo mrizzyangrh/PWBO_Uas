@@ -189,13 +189,13 @@
                 </a>
               </li>
               <li class="nav-item">
-                <a href="#" class="nav-link">
+                <a href="<?= base_url('ortu') ?>" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Ortu</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="#" class="nav-link">
+                <a href="<?= base_url('anak') ?>" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Anak</p>
                 </a>
@@ -213,13 +213,13 @@
             </a>
             <ul class="nav nav-treeview">
               <li class="nav-item">
-                <a href="#" class="nav-link active">
+                <a href="<?= base_url('kunjungan') ?>" class="nav-link active">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Kunjungan</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="#" class="nav-link">
+                <a href="<?= base_url('pengukuran') ?>" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Pengukuran</p>
                 </a>
@@ -237,13 +237,13 @@
             </a>
             <ul class="nav nav-treeview">
               <li class="nav-item">
-                <a href="#" class="nav-link active">
+                <a href="<?= base_url('laporan/kunjungan') ?>" class="nav-link active">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Laporan Kunjungan</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="#" class="nav-link">
+                <a href="<?= base_url('laporan/pengukuran') ?>" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Laporan Pengukuran</p>
                 </a>
